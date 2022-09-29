@@ -1,0 +1,40 @@
+golang-github-posener-complete (1.2.3-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 06 Feb 2021 14:11:48 +0000
+
+golang-github-posener-complete (1.2.3-1) unstable; urgency=medium
+
+  [ Michael Stapelberg ]
+  * update debian/gitlab-ci.yml (using salsa.debian.org/go-team/ci/cmd/ci)
+
+  [ Dmitry Smirnov ]
+  * New upstream release
+  * Standards-Version: 4.4.1
+  * DH to version 12
+  * Added myself to Uploaders (Closes: #940412)
+  * (Build-)Depends:
+    + golang-github-stretchr-testify-dev
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Fri, 27 Dec 2019 16:40:25 +1100
+
+golang-github-posener-complete (1.1+git20180108.57878c9-3) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 06 Feb 2018 00:24:17 -0500
+
+golang-github-posener-complete (1.1+git20180108.57878c9-2) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 17:18:32 -0500
+
+golang-github-posener-complete (1.1+git20180108.57878c9-1) unstable; urgency=medium
+
+  * Initial release (Closes: #886668)
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 08 Jan 2018 14:19:10 -0500

@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+export DH_GOLANG_INSTALL_EXTRA := tests
+export DH_GOLANG_EXCLUDES := example gocomplete
+
+%:
+	dh $@ --buildsystem=golang --with=golang

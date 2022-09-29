@@ -1,0 +1,28 @@
+Source: golang-github-posener-complete
+Section: devel
+Priority: optional
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Alexandre Viau <aviau@debian.org>,
+           Dmitry Smirnov <onlyjob@debian.org>,
+Build-Depends: debhelper-compat (= 12),
+               dh-golang,
+               golang-any,
+    golang-github-hashicorp-go-multierror-dev,
+    golang-github-stretchr-testify-dev,
+Standards-Version: 4.4.1
+Homepage: https://github.com/posener/complete
+Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-posener-complete
+Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-posener-complete.git
+XS-Go-Import-Path: github.com/posener/complete
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-posener-complete-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+    golang-github-hashicorp-go-multierror-dev,
+    golang-github-stretchr-testify-dev,
+Description: bash completion written in go
+ Writing bash completion scripts is a hard work. This package provides
+ an easy way to create bash completion scripts for any command, and
+ also an easy way to install/uninstall the completion of the command.
